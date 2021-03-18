@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="disabledBtnBg">#999999</color>
+    <color name="lightGray">#F2F2F2</color>
+    <color name="colorAccent2">#4061d8</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#9f9f9f</color>
+    <color name="colorDelete">#F44336</color>
+    <!-- Brown Colors Interface -->
+    <color name="brown">#795548</color>
+    <color name="lightbrown">#a98274</color>
+
+    <color name="darkerbrown">#5d4037</color>
+
+    <color name="orange">#FFA500</color>
+    <color name="DarkCyan">#008B8B</color>
+</resources>

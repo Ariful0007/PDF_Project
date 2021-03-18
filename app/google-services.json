@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "875390254512",
+    "firebase_url": "https://pdfproject-dd2a3-default-rtdb.firebaseio.com",
+    "project_id": "pdfproject-dd2a3",
+    "storage_bucket": "pdfproject-dd2a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875390254512:android:e3ba613eb09e9a00e8aa75",
+        "android_client_info": {
+          "package_name": "com.example.pdf_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875390254512-7tsbuklstbjecadgpsb92vg9g1t4n84o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pdf_project",
+            "certificate_hash": "f8e75969bdc1f63a21314592076c6266bf022b67"
+          }
+        },
+        {
+          "client_id": "875390254512-m5g9aoubss6v8kj9ruso6hl5k530gcb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAcsHHuUqevSK1RA9PXcLE8O6EzSDriQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875390254512-m5g9aoubss6v8kj9ruso6hl5k530gcb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

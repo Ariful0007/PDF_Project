@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pdf_project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PdfActivity"
+            android:theme="@style/Pdf"></activity>
+        <activity
+            android:name=".Download_list"
+            android:theme="@style/Pdf" />
+        <activity android:name=".Pdf_Offline" />
+        <activity android:name=".Help_text" />
+        <activity android:name=".Details_knower" />
+        <activity
+            android:name=".admin_panel.Add_PDf.Admin_help"
+            android:parentActivityName=".admin_panel.Admin_panel" />
+        <activity
+            android:name=".admin_panel.Add_PDf.Admin_Books"
+            android:parentActivityName=".admin_panel.Admin_panel" />
+        <activity
+            android:name=".History_Category"
+            android:parentActivityName=".admin_panel.Admin_panel" />
+        <activity
+            android:name=".admin_panel.Reader"
+            android:parentActivityName=".admin_panel.Admin_panel" />
+        <activity android:name=".admin_panel.Pdf_Reader" />
+        <activity android:name=".History_2" />
+        <activity android:name=".User_Details" />
+        <activity
+            android:name=".admin_panel.Help_pdf"
+            android:parentActivityName=".admin_panel.Add_PDf.Pdf_Category" />
+        <activity
+            android:name=".admin_panel.Book_pdf"
+            android:parentActivityName=".admin_panel.Add_PDf.Pdf_Category" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".Help_Books"
+            android:parentActivityName=".User" />
+        <activity
+            android:name=".Books"
+            android:parentActivityName=".User" />
+        <activity android:name=".Profile" />
+        <activity android:name=".User_history" />
+        <activity android:name=".User" />
+        <activity android:name=".admin_panel.Add_User" />
+        <activity android:name=".Client_SMS.Client_SMS" />
+        <activity
+            android:name=".admin_panel.Add_PDf.Pdf_Category"
+            android:parentActivityName=".admin_panel.Admin_panel" />
+        <activity android:name=".admin_panel.Admin_panel" />
+        <activity android:name=".Give_License" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

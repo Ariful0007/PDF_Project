@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_panel.Admin_panel">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:titleTextColor="#004D40"
+
+        app:titleMarginStart="20dp"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/space_5dp"
+        android:layout_marginLeft="@dimen/space_5dp"
+        android:layout_marginTop="@dimen/space_5dp"
+        >
+        <include
+            layout="@layout/copy"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"></include>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="General">
+        <menu>
+            <item
+
+                android:id="@+id/addNote"
+                android:icon="@drawable/ic_baseline_home_24"
+
+                android:title="Home" />
+            <item
+                android:id="@+id/notes"
+                android:icon="@drawable/ic_baseline_account_circle_24"
+
+                android:title="Profile" />
+            <item
+                android:id="@+id/notes2"
+                android:icon="@drawable/ic_baseline_arrow_downward_24"
+
+                android:title="Download Pdf" />
+
+        </menu>
+    </item>
+    <item android:title="Support">
+        <menu>
+
+            <item
+                android:id="@+id/shareapp1"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Settings" />
+        </menu>
+    </item>
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_vpn_key_24"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

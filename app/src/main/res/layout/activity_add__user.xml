@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".admin_panel.Add_User">
+
+
+    <TextView
+        android:id="@+id/profile_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Active This User"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="@color/colorAccent2"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <ScrollView
+        android:layout_below="@id/profile_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:gravity="left"
+                android:textColor="@color/colorAccent2"
+                android:textSize="19dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/space_20dp"
+                android:layout_marginRight="50dp"
+                android:id="@+id/s"
+                >
+            </TextView>
+            <EditText
+                android:layout_below="@+id/Email_Log"
+                android:layout_marginTop="@dimen/space_10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/text_input_bg"
+                android:id="@+id/username_added"
+                android:maxLength="25"
+                android:inputType="text"
+
+                android:maxLines="1"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="Jack Knight"
+                android:gravity="center_vertical"
+                android:textColor="#000"
+                android:textSize="@dimen/space_15dp"
+
+                >
+
+            </EditText>
+            //user
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:gravity="left"
+                android:textColor="@color/colorAccent2"
+                android:textSize="19dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/space_20dp"
+                android:layout_marginRight="50dp"
+                android:id="@+id/s1"
+                >
+            </TextView>
+            <EditText
+                android:layout_below="@+id/Email_Log"
+                android:layout_marginTop="@dimen/space_10dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50dp"
+                android:background="@drawable/text_input_bg"
+                android:id="@+id/phone_added"
+                android:maxLength="11"
+                android:inputType="phone"
+
+                android:maxLines="1"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="01754201532"
+                android:gravity="center_vertical"
+                android:textColor="#000"
+                android:textSize="@dimen/space_15dp"
+
+                >
+
+            </EditText>
+            //
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Address"
+                android:gravity="left"
+                android:textColor="@color/colorAccent2"
+                android:textSize="19dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/space_20dp"
+                android:layout_marginRight="50dp"
+                android:id="@+id/s3"
+                >
+            </TextView>
+            <EditText
+                android:layout_below="@+id/Email_Log"
+                android:layout_marginTop="@dimen/space_10dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50dp"
+                android:background="@drawable/text_input_bg"
+                android:id="@+id/email_add"
+                android:maxLength="500"
+                android:inputType="textAutoComplete"
+
+                android:maxLines="1"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="abc@gmail.com"
+                android:gravity="center_vertical"
+                android:textColor="#000"
+                android:textSize="@dimen/space_15dp"
+
+                >
+
+            </EditText>
+            //ee
+            //
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activation Date"
+                android:gravity="left"
+                android:textColor="@color/colorAccent2"
+                android:textSize="19dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/space_20dp"
+                android:layout_marginRight="50dp"
+                android:id="@+id/s4"
+                >
+            </TextView>
+            <TextView
+                android:layout_below="@+id/Email_Log"
+                android:layout_marginTop="@dimen/space_10dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50dp"
+                android:background="@drawable/text_input_bg"
+                android:id="@+id/date_picker"
+                android:maxLength="25"
+                android:inputType="datetime"
+
+                android:maxLines="1"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="12-5-2020"
+                android:gravity="center_vertical"
+                android:textColor="#000"
+                android:textSize="@dimen/space_15dp"
+
+                >
+
+            </TextView>
+
+            <Button
+                android:id="@+id/addEd"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="@dimen/space_20dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/primary_btn_bg"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="Active This User"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

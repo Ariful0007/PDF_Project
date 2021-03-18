@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History_Category">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar97"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:titleTextColor="#004D40"
+
+        app:titleMarginStart="20dp"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout
+        android:layout_marginTop="@dimen/space_10dp"
+        android:layout_below="@id/toolbar97"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/book_h1"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            app:cardBackgroundColor="#fff"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="5dp"
+            android:layout_marginLeft="30dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/space_50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/education"
+                    android:id="@+id/imae1"
+                    android:layout_marginTop="@dimen/space_5dp"
+                    android:layout_centerHorizontal="true"
+                    ></de.hdodenhof.circleimageview.CircleImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imae1"
+                    android:layout_marginTop="@dimen/space_15dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent2"
+                    android:fontFamily="@font/open_sans_bold"
+                    android:text="Books"
+
+                    android:textSize="15dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        //2
+        <androidx.cardview.widget.CardView
+            android:id="@+id/helpp11"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="#fff"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="5dp"
+            android:layout_marginLeft="30dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/space_50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/me"
+                    android:id="@+id/imae2"
+                    android:layout_marginTop="@dimen/space_5dp"
+                    android:layout_centerHorizontal="true"
+                    ></de.hdodenhof.circleimageview.CircleImageView>
+                <TextView
+                    android:layout_below="@id/imae2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Help Books"
+
+                    android:fontFamily="@font/open_sans_bold"
+                    android:layout_marginTop="@dimen/space_5dp"
+                    android:textColor="@color/colorAccent2"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>
